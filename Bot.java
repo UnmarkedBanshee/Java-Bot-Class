@@ -25,5 +25,19 @@ public class Bot {
             System.out.println(i+"!");
         }
         System.out.println("Told you!");
+        System.out.println("Let's test your programming knowledge.");
+        System.out.println("When was java created?");
+        System.out.println("1. 1994");
+        System.out.println("2. 1995");
+        System.out.println("3. 1996");
+        System.out.println("4. 1997");
+        int answer = input.nextInt();
+        if (answer != 3) {
+            System.out.println("No, the correct answer was 1996");
+        } else {
+            System.out.println("Correct");
+        }
+        System.out.println("Have a nice day!");
+
     }
 }
